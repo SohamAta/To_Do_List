@@ -70,7 +70,7 @@ position: absolute;
 width: 28px;
 height: 28px;
 border-radius: 50%;
-background-image: url("/To_Do_List/images/unchecked.png");
+background-image: url("./images/unchecked.png");
 background-size: cover;
 background-position: center;
 top: 12px;
@@ -81,7 +81,7 @@ ul li.chacked{
     text-decoration: line-through;
 }
  ul li.chacked::before{
-    background-image: url("/To_Do_List/images/checked.png");
+    background-image: url("./images/checked.png");
 }
 ul li span{
     position: absolute;
